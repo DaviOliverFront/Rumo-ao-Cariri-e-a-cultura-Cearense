@@ -168,3 +168,46 @@ p{
     margin-top: 110px;
     margin-left: 50px;
 }
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Eventos{
+    display: flex;
+    margin-left: 450px;
+}
+.E01{
+    height: 200px;
+    width:  410px;
+    background-color: #F9E7CE;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.E02{
+    height: 200px;
+    width:  410px;
+    background-color: #F9E7CE;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.E03{
+    height: 200px;
+    width:  410px;
+    background-color: #F9E7CE;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.E04{
+    height: 200px;
+    width:  410px;
+    background-color: #F9E7CE;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
