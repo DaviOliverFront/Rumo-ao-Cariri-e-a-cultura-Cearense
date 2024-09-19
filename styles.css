@@ -1,0 +1,95 @@
+/* Resto do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imgs/fundo.jpg');
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
+    background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
+    background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+
+header {
+    background-color: #FFBD59;
+    display: flex;
+    align-items: center;
+    padding: 1px; 
+    border-bottom: 1px solid #FFBD59;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 8px; 
+}
+
+.logo img {
+    height: 140px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.admin {
+    margin-left: 20px;
+}
+
+.admin img {
+    height: 195px;
+    /* border-radius: 50%; */
+}
+
+.imagem-cariri {
+    text-align: center; /* Centraliza a imagem */
+    margin: 0px 0px; /* Adiciona espaço acima e abaixo da imagem */
+}
+
+.imagem-cariri img {
+    width: 100%; /* A imagem ocupa toda a largura da tela */
+    max-width: 900px; /* Define um tamanho máximo para a imagem */
+    height: 500px; /* Mantém a proporção da imagem */
+}
+
+.texto-cariri {
+    text-align: center;
+    padding: 0px 0;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Ruda', sans-serif;
+    color: #000;
+    max-width: 1000px; /* Reduz o comprimento do texto */
+    margin: 10px auto; /* Centraliza o texto e o aproxima da imagem */
+    line-height: 1.4;
+}
