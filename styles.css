@@ -1,4 +1,5 @@
 /* Resto do CSS */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +7,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('imgs/fundo.jpg');
+    font-family: "Amatic SC", sans-serif;
+    background-image: url('image/background_desfocado.jpeg');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
@@ -32,6 +33,7 @@ header {
 
 .logo img {
     height: 140px;
+    margin-left: 25px;
 }
 
 nav {
@@ -46,6 +48,7 @@ nav ul {
 
 nav ul li {
     margin-left: 10px;
+    padding: 10px;
 }
 
 nav ul li a {
@@ -53,6 +56,7 @@ nav ul li a {
     color: #000;
     font-size: 40px;
     font-family: 'Amatic SC', cursive;
+    font-weight: bold;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
@@ -70,6 +74,31 @@ nav ul li a:hover {
     height: 195px;
     /* border-radius: 50%; */
 }
+.btn {
+    margin-right: 19px;
+    padding: 6px 11px;
+    background-color: transparent;
+    border: 3px solid var(--light-color);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 26px;
+    color: var(--dark-color);
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--light-color);;
+    color: var(--dark-color)
+}
+
+:root {
+    --primary-color: #ffbd59;
+    --dark-color: #000000;
+    --light-color: #ffffff;
+}
+    
 
 .imagem-cariri {
     text-align: center; /* Centraliza a imagem */
@@ -77,9 +106,9 @@ nav ul li a:hover {
 }
 
 .imagem-cariri img {
-    width: 100%; /* A imagem ocupa toda a largura da tela */
-    max-width: 900px; /* Define um tamanho máximo para a imagem */
-    height: 500px; /* Mantém a proporção da imagem */
+    margin-top: 50px;
+    width: 290px; /* A imagem ocupa toda a largura da tela */
+    height: 120px; /* Mantém a proporção da imagem */
 }
 
 .texto-cariri {
@@ -87,9 +116,55 @@ nav ul li a:hover {
     padding: 0px 0;
     font-size: 27px;
     font-weight: bold;
-    font-family: 'Ruda', sans-serif;
     color: #000;
     max-width: 1000px; /* Reduz o comprimento do texto */
     margin: 10px auto; /* Centraliza o texto e o aproxima da imagem */
     line-height: 1.4;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+.section01{
+    display: flex;
+}
+.section02{
+    display: flex;
+}
+.section03{
+    display: flex;
+}
+
+
+.imagem_esquerda{
+    margin-left: 40px;
+}
+.imagem_direita{
+    
+}
+.paragrafo_img1{
+    font-size: 30px;
+    font-weight: bold;
+    width: 950px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.paragrafo_img2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 950px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 450px;
+}
+.paragrafo_img3{
+    font-size: 30px;
+    font-weight: bold;
+    width: 950px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 50px;
 }
