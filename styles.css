@@ -174,40 +174,47 @@ h2{
     color: #ffffff;
 }
 
-.Eventos{
+.Eventos {
     display: flex;
-    margin-left: 450px;
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-wrap: wrap; /* Permite que as caixas quebrem linha */
+    gap: 20px; /* Espaçamento entre as caixas */
+    margin: 50px auto; /* Centraliza e dá espaço acima/abaixo */
+    max-width: 1000px; /* Limita a largura do contêiner */
 }
-.E01{
+
+.E01, .E02, .E03, .E04 {
     height: 200px;
-    width:  410px;
+    width: 410px;
     background-color: #F9E7CE;
     border-radius: 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-.E02{
-    height: 200px;
-    width:  410px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-top: 50px;
-}
-.E03{
-    height: 200px;
-    width:  410px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-left: 50px;
     margin-top: 50px;
 }
 
-.E04{
-    height: 200px;
-    width:  410px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-top: 50px;
+/* Responsividade para diferentes tamanhos de tela */
+@media (max-width: 1024px) {
+    .Eventos {
+        justify-content: center;
+    }
+
+    .E01, .E02, .E03, .E04 {
+        width: 90%; /* As caixas ocupam 90% da largura em telas menores */
+    }
+}
+
+@media (max-width: 768px) {
+    .Eventos {
+        flex-direction: column; /* Empilha as caixas verticalmente */
+        align-items: center;
+    }
+
+    .E01, .E02, .E03, .E04 {
+        width: 100%; /* Ocupa 100% da largura */
+    }
+}
+
+@media (max-width: 480px) {
+    .E01, .E02, .E03, .E04 {
+        width: 100%;
+    }
 }
