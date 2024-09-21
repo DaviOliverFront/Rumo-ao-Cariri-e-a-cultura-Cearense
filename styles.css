@@ -121,12 +121,9 @@ nav ul li a:hover {
     margin: 10px auto; /* Centraliza o texto e o aproxima da imagem */
     line-height: 1.4;
 }
-
-
 p{
-    font-size: 30px;
+    font-size: 40px;
 }
-
 .section01{
     display: flex;
 }
@@ -136,9 +133,8 @@ p{
 .section03{
     display: flex;
 }
-
-
 .imagem_esquerda{
+    margin-top: 25px;
     margin-left: 40px;
 }
 .imagem_direita{
@@ -146,27 +142,39 @@ p{
 }
 
 .paragrafo_img1{
-    font-size: 30px;
+    background-color: #F9E7CE;
+    font-size: 40px;
     font-weight: bold;
+    padding: 10px;
+    height: 180px;
+    border-radius: 20px;
     width: 1250px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 50px;
 }
 .paragrafo_img2{
-    font-size: 30px;
+    background-color: #F9E7CE;
+    font-size: 40px;
     font-weight: bold;
+    padding: 10px;
+    height: 230px;
+    border-radius: 20px;
     width: 1250px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: 260px;
 }
 .paragrafo_img3{
-    font-size: 30px;
+    background-color: #F9E7CE;
+    font-size: 40px;
     font-weight: bold;
+    padding: 10px;
+    height: 230px;
+    border-radius: 20px;
     width: 1250px;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 90px;
     margin-left: 50px;
 }
 h2{
