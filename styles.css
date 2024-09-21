@@ -148,7 +148,7 @@ p{
 .paragrafo_img1{
     font-size: 30px;
     font-weight: bold;
-    width: 950px;
+    width: 1250px;
     text-align: center;
     margin-top: 120px;
     margin-left: 50px;
@@ -164,7 +164,7 @@ p{
 .paragrafo_img3{
     font-size: 30px;
     font-weight: bold;
-    width: 950px;
+    width: 1250px;
     text-align: center;
     margin-top: 110px;
     margin-left: 50px;
@@ -179,7 +179,7 @@ h2{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     flex-wrap: wrap; /* Permite que as caixas quebrem linha */
-    gap: 20px; /* Espaçamento entre as caixas */
+    gap: 80px; /* Espaçamento entre as caixas */
     margin: 50px auto; /* Centraliza e dá espaço acima/abaixo */
     max-width: 1000px; /* Limita a largura do contêiner */
 }
