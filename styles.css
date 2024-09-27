@@ -47,8 +47,9 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -60,6 +61,7 @@ nav ul li a {
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
+    padding-right: 08px
 }
 
 nav ul li a:hover {
