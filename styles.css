@@ -145,14 +145,25 @@ p{
     margin-right: 40px;
 }
 
-.paragrafo_img1, .paragrafo_img2, .paragrafo_img3 {
+.paragrafo_img1, .paragrafo_img2{
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
     padding: 10px;
     height: 220px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
-    width: 80%; /* Ajuste a largura para uma porcentagem */
+    width: 100%; /* Ajuste a largura para uma porcentagem */
+    text-align: center;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
+}
+.paragrafo_img3 {
+    background-color: #F9E7CE;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 17px;
+    height: 270px; /* Ajuste a altura conforme necessário */
+    border-radius: 20px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
     margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
