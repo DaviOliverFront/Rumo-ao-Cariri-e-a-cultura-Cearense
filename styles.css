@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-body {
+/* Estilos exclusivos para a página Home */
+body.home-page {
     font-family: "Amatic SC", sans-serif;
     background-image: url('image/background_desfocado.jpeg');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
@@ -16,6 +17,7 @@ body {
     min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
     overflow-x: hidden; /* Impede rolagem horizontal */
 }
+
 
 header {
     background-color: #FFBD59;
@@ -47,8 +49,9 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
+    margin-right: 50px;
 }
 
 nav ul li a {
@@ -60,6 +63,7 @@ nav ul li a {
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
+    padding-right: 08px
 }
 
 nav ul li a:hover {
@@ -192,6 +196,74 @@ h2{
     max-width: 1000px; /* Limita a largura do contêiner */
 }
 
+HEAD
+.E01,.E02, .E03, .E04 {
+    height: 190px;
+    width: 390px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex; /* Transforma o botão em um flex container */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.E01 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F9E7CE;
+    padding: 10px;
+}
+
+.E01 img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+.E02 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F9E7CE;
+    padding: 10px;
+}
+
+.E02 img {
+    width: 150px;
+    height: 159px;
+    margin-right: 10px;
+}
+
+.E03 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F9E7CE;
+    padding: 10px;
+}
+
+.E03 img {
+    width: 150px;
+    height: 159px;
+    margin-right: 10px;
+}
+
+.E04 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F9E7CE;
+    padding: 10px;
+}
+
+.E04 img {
+    width: 150px;
+    height: 159px;
+    margin-right: 10px;
+}
 .E01, .E02, .E03, .E04 {
     height: 220px;
     width: 450px;
