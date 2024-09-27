@@ -189,14 +189,15 @@ h2{
 
 .Eventos {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    flex-wrap: wrap; /* Permite que as caixas quebrem linha */
-    gap: 80px; /* Espaçamento entre as caixas */
-    margin: 50px auto; /* Centraliza e dá espaço acima/abaixo */
-    max-width: 1000px; /* Limita a largura do contêiner */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; /* Ajusta o espaço entre as caixas na vertical e horizontal */
+    margin: 50px auto;
+    padding: 0px;
+    max-width: 1000px;
 }
 
-HEAD
+head
 .E01,.E02, .E03, .E04 {
     height: 190px;
     width: 390px;
@@ -208,6 +209,7 @@ HEAD
     padding: 10px; /* Adiciona um pouco de espaço interno */
     border: none; /* Remove a borda padrão do botão */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    
 }
 
 .E01 {
@@ -216,6 +218,7 @@ HEAD
     justify-content: flex-start;
     background-color: #F9E7CE;
     padding: 10px;
+    border: none;
 }
 
 .E01 img {
@@ -263,7 +266,7 @@ HEAD
     width: 150px;
     height: 159px;
     margin-right: 10px;
-}
+}    
 .E01, .E02, .E03, .E04 {
     height: 220px;
     width: 450px;
