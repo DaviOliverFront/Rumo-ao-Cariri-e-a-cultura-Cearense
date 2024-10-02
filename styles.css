@@ -173,7 +173,7 @@ h2{
     color: #ffffff;
 }
 
-.Eventos {
+.eventos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -183,91 +183,42 @@ h2{
     max-width: 1000px;
 }
 
-head
-.E01,.E02, .E03, .E04 {
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
     height: 190px;
     width: 390px;
     background-color: #F9E7CE;
     border-radius: 10px;
     margin-top: 10px;
-    display: flex; /* Transforma o botão em um flex container */
-    align-items: center; /* Centraliza os itens verticalmente */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
-    border: none; /* Remove a borda padrão do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    
 }
 
-.E01 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-    border: none;
+.cards p, h3 {
+    font-size: 1.125rem;
 }
 
-.E01 img {
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
-}
-.E02 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-}
-
-.E02 img {
+.cards img {
     width: 150px;
     height: 159px;
     margin-right: 10px;
 }
 
-.E03 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-}
-
-.E03 img {
-    width: 150px;
-    height: 159px;
-    margin-right: 10px;
-}
-
-.E04 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-}
-
-.E04 img {
-    width: 150px;
-    height: 159px;
-    margin-right: 10px;
-}    
-.E01, .E02, .E03, .E04 {
-    height: 220px;
-    width: 450px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-top: 50px; 
-}
 
 /* Responsividade para diferentes tamanhos de tela */
 @media (max-width: 1024px) {
-    .Eventos {
+    .eventos {
         justify-content: center;
     }
 
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 90%; /* As caixas ocupam 90% da largura em telas menores */
     }
 }
@@ -278,13 +229,13 @@ head
         align-items: center;
     }
 
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 100%; /* Ocupa 100% da largura */
     }
 }
 
 @media (max-width: 480px) {
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 100%;
     }
 }
