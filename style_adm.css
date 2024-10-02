@@ -8,11 +8,30 @@
 body {
     font-family: "Amatic SC", sans-serif;
     background-color: #D56A47;
-    
-}
-
-section {
     text-align: center;
     background-image: url(image/fundo-adm.png);
     background-repeat: no-repeat;
+    background-position: top center;
+    height: 100%;
+}
+
+h1, h2{
+    color: white;
+}
+
+h1{
+   font-size: 3.43rem; 
+}
+
+h2 {
+    margin-top: 1.25rem;
+    font-size: 1.90rem;
+}
+
+div {
+    margin-top: 3.20rem;
+}
+
+input {
+    font-size: 1.25rem;
 }
