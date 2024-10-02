@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-body {
+/* Estilos exclusivos para a página Home */
+body.home-page {
     font-family: "Amatic SC", sans-serif;
     background-image: url('image/background_desfocado.jpeg');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
@@ -16,6 +17,7 @@ body {
     min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
     overflow-x: hidden; /* Impede rolagem horizontal */
 }
+
 
 header {
     background-color: #FFBD59;
@@ -143,41 +145,27 @@ p{
     margin-right: 40px;
 }
 
-.paragrafo_img1{
+.paragrafo_img1, .paragrafo_img2{
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
     padding: 10px;
-    height: 180px;
+    height: 220px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
-    width: 1250px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
-.paragrafo_img2{
+.paragrafo_img3 {
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
-    padding: 10px;
-    height: 230px;
+    padding: 17px;
+    height: 270px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
-    width: 1250px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
-    margin-top: 80px;
-    margin-left: 260px;
-}
-.paragrafo_img3{
-    background-color: #F9E7CE;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
-    height: 230px;
-    border-radius: 20px;
-    width: 1250px;
-    text-align: center;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
 h2{
     font-size: 80px;
@@ -185,30 +173,52 @@ h2{
     color: #ffffff;
 }
 
-.Eventos {
+.eventos {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    flex-wrap: wrap; /* Permite que as caixas quebrem linha */
-    gap: 80px; /* Espaçamento entre as caixas */
-    margin: 50px auto; /* Centraliza e dá espaço acima/abaixo */
-    max-width: 1000px; /* Limita a largura do contêiner */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; /* Ajusta o espaço entre as caixas na vertical e horizontal */
+    margin: 50px auto;
+    padding: 0px;
+    max-width: 1000px;
 }
 
-.E01, .E02, .E03, .E04 {
-    height: 200px;
-    width: 410px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-top: 50px;
+.card {
+    display: flex;
+    flex-direction: column;
 }
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 190px;
+    width: 390px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cards p, h3 {
+    font-size: 1.125rem;
+}
+
+.cards img {
+    width: 150px;
+    height: 159px;
+    margin-right: 10px;
+}
+
 
 /* Responsividade para diferentes tamanhos de tela */
 @media (max-width: 1024px) {
-    .Eventos {
+    .eventos {
         justify-content: center;
     }
 
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 90%; /* As caixas ocupam 90% da largura em telas menores */
     }
 }
@@ -219,13 +229,13 @@ h2{
         align-items: center;
     }
 
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 100%; /* Ocupa 100% da largura */
     }
 }
 
 @media (max-width: 480px) {
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 100%;
     }
 }
