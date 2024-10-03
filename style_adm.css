@@ -48,6 +48,10 @@ div {
 }
 
 .login {
-    margin-top: 50px;
-    width: 17,375rem;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    background-color: #FFBD59;
+    font-size: 1.75rem;
+    margin-top: 3.0rem;
+    width: 18.125rem;
 }
