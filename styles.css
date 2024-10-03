@@ -9,7 +9,7 @@
 /* Estilos exclusivos para a página Home */
 body.home-page {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('img_home/background_desfocado.jpeg');
+    background-image: url('img_home/fundo-home.jpeg');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
@@ -145,7 +145,7 @@ p{
     margin-right: 40px;
 }
 
-.paragrafo_img1{
+.paragrafo_img1, .paragrafo_img2{
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
@@ -156,29 +156,16 @@ p{
     text-align: center;
     margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
-.paragrafo_img2{
+.paragrafo_img3 {
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
-    padding: 10px;
-    height: 230px;
+    padding: 17px;
+    height: 270px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
-    width: 1250px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
-    margin-top: 80px;
-    margin-left: 260px;
-}
-.paragrafo_img3{
-    background-color: #F9E7CE;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
-    height: 230px;
-    border-radius: 20px;
-    width: 1250px;
-    text-align: center;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
 h2{
     font-size: 80px;
@@ -212,76 +199,18 @@ h2{
     background-color: #F9E7CE;
     border-radius: 10px;
     margin-top: 10px;
-    display: flex; /* Transforma o botão em um flex container */
-    align-items: center; /* Centraliza os itens verticalmente */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
-    border: none; /* Remove a borda padrão do botão */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    
 }
 
-.E01 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-    border: none;
+.cards p, h3 {
+    font-size: 1.125rem;
 }
 
-.E01 img {
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
-}
-.E02 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-}
-
-.E02 img {
+.cards img {
     width: 150px;
     height: 159px;
     margin-right: 10px;
 }
 
-.E03 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-}
-
-.E03 img {
-    width: 150px;
-    height: 159px;
-    margin-right: 10px;
-}
-
-.E04 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #F9E7CE;
-    padding: 10px;
-}
-
-.E04 img {
-    width: 150px;
-    height: 159px;
-    margin-right: 10px;
-}    
-.E01, .E02, .E03, .E04 {
-    height: 220px;
-    width: 450px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-top: 50px; 
-}
 
 /* Responsividade para diferentes tamanhos de tela */
 @media (max-width: 1024px) {
