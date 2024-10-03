@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 .admin img {
     height: 195px;
-    /* border-radius: 50%; */
+    
 }
 .btn {
     margin-right: 19px;
@@ -210,7 +210,27 @@ h2{
     height: 159px;
     margin-right: 10px;
 }
+.cidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.city {
+    height: 350px;
+    width: 274.75px;
+    padding: 35px;
+    border-radius: 25%;
+}
+
+.titulos {
+    display: flex;
+    color: white;
+}
+
+.title {
+    padding: 35px;
+}
 
 /* Responsividade para diferentes tamanhos de tela */
 @media (max-width: 1024px) {
