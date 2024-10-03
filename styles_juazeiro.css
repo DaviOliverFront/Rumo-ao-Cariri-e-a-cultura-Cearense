@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 
-/* Estilos exclusivos para a página Home */
-body.home-page {
+body.home-juazeiro {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('img_home/fundo-home.jpeg');
+    background-image: url('img_juazeiro/body_juazeiro.png');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
@@ -104,48 +103,64 @@ nav ul li a:hover {
 }
     
 
-.img-cariri {
+.img-juazeiro {
     text-align: center; /* Centraliza a imagem */
-    margin: 0px 0px; /* Adiciona espaço acima e abaixo da imagem */
+    margin: 0px 200px; /* Adiciona espaço acima e abaixo da imagem */
 }
 
-.img-cariri img {
-    margin-top: 50px;
-    width: 290px; /* A imagem ocupa toda a largura da tela */
-    height: 120px; /* Mantém a proporção da imagem */
+.img-juazeiro img {
+    margin-top: 40px;
+    width: 500px; /* A imagem ocupa toda a largura da tela */
+    height: 100px; /* Mantém a proporção da imagem */
 }
 
-.texto-cariri {
+.texto-juazeiro {
     text-align: center;
     padding: 0px 0;
-    font-size: 27px;
     font-weight: bold;
     color: #000;
     max-width: 1000px; /* Reduz o comprimento do texto */
-    margin: 10px auto; /* Centraliza o texto e o aproxima da imagem */
+    margin: 30px auto; /* Centraliza o texto e o aproxima da imagem */
     line-height: 1.4;
 }
-p{
-    font-size: 40px;
+
+p1{
+    font-size: 50px;
 }
+
+p{
+    font-size: 35px;
+}
+
 .section01{
     display: flex;
 }
+
 .section02{
     display: flex;
 }
-.section03{
+
+.section03 {
     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: auto; /* Ajuste a altura conforme necessário */
+    padding: 10px; /* Adicione espaçamento ao redor */
 }
+.section03 img {
+    max-height: 800px; /* Ajuste o valor conforme necessário */
+}
+
 .imagem_esquerda{
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 40px;
 }
+
 .imagem_direita{
     margin-right: 40px;
 }
 
-.paragrafo_img1, .paragrafo_img2{
+.paragrafo_img1, .paragrafo_img2 {
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
@@ -156,86 +171,38 @@ p{
     text-align: center;
     margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
+
 .paragrafo_img3 {
     background-color: #F9E7CE;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
-    padding: 17px;
-    height: 270px; /* Ajuste a altura conforme necessário */
+    padding: 170px;
+    height: 270px; /* Ajuste a altura necessário */
     border-radius: 20px;
-    width: 100%; /* Ajuste a largura para uma porcentagem */
+    width: 100%; /* Ajuste a largura*/
     text-align: center;
-    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
+    margin: 2rem; /* Ajuste a margem superior e esquerda*/
 }
+
+@media (max-width: 768px) {
+    .section03 {
+      background-size: contain; /* Mantém as proporções e ajusta ao tamanho do container */
+      background-position: top; /* Posiciona a imagem no topo */
+    }
+  }
+
+
+
+@media (max-width: 768px) {
+    .paragrafo_img1, .paragrafo_img2, .paragrafo_img3 {
+        width: 90%; /* Aumente a largura para telas menores */
+        margin: 1rem; /* Ajuste a margem para telas menores */
+    }
+}
+
 h2{
     font-size: 80px;
     text-align: center;
     color: #ffffff;
 }
 
-.eventos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px 50px ; /* Ajusta o espaço entre as caixas na vertical e horizontal */
-    margin: 50px auto;
-    padding: 0px;
-    max-width: 1000px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-}
-
-.cards {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px;
-    border-radius: 10px;
-    height: 190px;
-    width: 390px;
-    background-color: #F9E7CE;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
-.cards p, h3 {
-    font-size: 1.125rem;
-}
-
-.cards img {
-    width: 150px;
-    height: 159px;
-    margin-right: 10px;
-}
-
-
-/* Responsividade para diferentes tamanhos de tela */
-@media (max-width: 1024px) {
-    .eventos {
-        justify-content: center;
-    }
-
-    .cards {
-        width: 90%; /* As caixas ocupam 90% da largura em telas menores */
-    }
-}
-
-@media (max-width: 768px) {
-    .Eventos {
-        flex-direction: column; /* Empilha as caixas verticalmente */
-        align-items: center;
-    }
-
-    .cards {
-        width: 100%; /* Ocupa 100% da largura */
-    }
-}
-
-@media (max-width: 480px) {
-    .cards {
-        width: 100%;
-    }
-}
