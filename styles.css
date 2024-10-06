@@ -19,7 +19,7 @@ body.home-page {
 }
 
 
-header {
+header , footer {
     background-color: #FFBD59;
     display: flex;
     align-items: center;
@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 .admin img {
     height: 195px;
-    /* border-radius: 50%; */
+    
 }
 .btn {
     margin-right: 19px;
@@ -201,8 +201,8 @@ h2{
     margin-top: 10px;
 }
 
-.cards p, h3 {
-    font-size: 1.125rem;
+.cards p{
+    font-size: 25px;
 }
 
 .cards img {
@@ -210,6 +210,46 @@ h2{
     height: 159px;
     margin-right: 10px;
 }
+.cidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+    height: 350px;
+    width: 274.75px;
+    padding: 35px;
+    border-radius: 25%;
+}
+
+.titulos {
+    display: flex;
+    color: white;
+    margin-left: 580px;
+    
+}
+.title1, .title2, .title3 {
+   margin-right: 15px;
+}
+
+.title1 {
+    margin-right: 115px;
+}
+
+.title2 {
+    margin-right: 165px;
+}
+
+h3{
+    font-size: 2.125rem;
+}
+
+footer img {
+    height: 140px;
+    margin-left: 25px;
+}
+
 
 
 /* Responsividade para diferentes tamanhos de tela */
