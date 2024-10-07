@@ -17,7 +17,6 @@ body.home-juazeiro {
     overflow-x: hidden; /* Impede rolagem horizontal */
 }
 
-
 header {
     background-color: #FFBD59;
     display: flex;
@@ -102,7 +101,6 @@ nav ul li a:hover {
     --light-color: #ffffff;
 }
     
-
 .img-crato {
     text-align: center; /* Centraliza a imagem */
     margin: 0px 200px; /* Adiciona espaço acima e abaixo da imagem */
@@ -165,7 +163,7 @@ p{
     font-size: 40px;
     font-weight: bold;
     padding: 10px;
-    height: 220px; /* Ajuste a altura conforme necessário */
+    height: 225px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
     width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
@@ -182,6 +180,11 @@ p{
     width: 100%; /* Ajuste a largura*/
     text-align: center;
     margin: 2rem; /* Ajuste a margem superior e esquerda*/
+}
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -200,9 +203,5 @@ p{
     }
 }
 
-h2{
-    font-size: 80px;
-    text-align: center;
-    color: #ffffff;
-}
+
 
