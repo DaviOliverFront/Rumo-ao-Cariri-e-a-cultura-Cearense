@@ -9,7 +9,7 @@
 /* Estilos exclusivos para a página Home */
 body.home-page {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('img_home/fundo-home.jpeg');
+    background-image: url('../../public/images/home/fundo-home.jpeg');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */

@@ -9,7 +9,7 @@ body {
     font-family: "Amatic SC", sans-serif;
     background-color: #D56A47;
     text-align: center;
-    background-image: url(img_home/fundo-adm.png);
+    background-image: url(../../public/images/home/fundo-adm.png);
     background-repeat: no-repeat;
     background-position: top center;
     height: 100%;

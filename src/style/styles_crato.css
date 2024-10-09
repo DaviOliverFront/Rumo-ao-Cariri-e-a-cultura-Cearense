@@ -8,7 +8,7 @@
 
 body.home-juazeiro {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('img_juazeiro/body_juazeiro.png');
+    background-image: url('../../public/images/juazeiro/body_juazeiro.png');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
@@ -16,7 +16,6 @@ body.home-juazeiro {
     min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
     overflow-x: hidden; /* Impede rolagem horizontal */
 }
-
 
 header {
     background-color: #FFBD59;
@@ -102,15 +101,14 @@ nav ul li a:hover {
     --light-color: #ffffff;
 }
     
-
-.img-juazeiro {
+.img-crato {
     text-align: center; /* Centraliza a imagem */
     margin: 0px 200px; /* Adiciona espaço acima e abaixo da imagem */
 }
 
-.img-juazeiro img {
+.img-crato img {
     margin-top: 40px;
-    width: 500px; /* A imagem ocupa toda a largura da tela */
+    width: 300px; /* A imagem ocupa toda a largura da tela */
     height: 100px; /* Mantém a proporção da imagem */
 }
 
@@ -165,7 +163,7 @@ p{
     font-size: 40px;
     font-weight: bold;
     padding: 10px;
-    height: 220px; /* Ajuste a altura conforme necessário */
+    height: 225px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
     width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
@@ -182,6 +180,11 @@ p{
     width: 100%; /* Ajuste a largura*/
     text-align: center;
     margin: 2rem; /* Ajuste a margem superior e esquerda*/
+}
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -200,9 +203,5 @@ p{
     }
 }
 
-h2{
-    font-size: 80px;
-    text-align: center;
-    color: #ffffff;
-}
+
 
