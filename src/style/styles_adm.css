@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Amatic SC", sans-serif;
+    background-color: #D56A47;
+    text-align: center;
+    background-image: url(../../public/images/home/fundo-adm.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80%;
+    height: 100%;
+}
+
+h1, h2{
+    color: white;
+    font-size: 1.90rem;
+}
+
+h1{
+   font-size: 3.43rem; 
+}
+
+h2 {
+    margin-top: 1.25rem;
+    margin-right: 13.125rem;
+}
+
+div {
+    margin-top: 4.10rem;
+}
+
+ input {
+    padding: 4px;
+    font-size: 1.35rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+::placeholder {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.login {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    background-color: #FFBD59;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    width: 18.125rem;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}

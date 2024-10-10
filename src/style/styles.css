@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
-body {
+/* Estilos exclusivos para a página Home */
+body.home-page {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('image/background_desfocado.jpeg');
+    background-image: url('../../public/images/home/fundo-home.jpeg');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
@@ -16,6 +17,7 @@ body {
     min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
     overflow-x: hidden; /* Impede rolagem horizontal */
 }
+
 
 header {
     background-color: #FFBD59;
@@ -47,19 +49,21 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 10px;
+    margin-right: 50px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
+    padding-right: 09px
 }
 
 nav ul li a:hover {
@@ -72,7 +76,7 @@ nav ul li a:hover {
 
 .admin img {
     height: 195px;
-    /* border-radius: 50%; */
+    
 }
 .btn {
     margin-right: 19px;
@@ -100,12 +104,12 @@ nav ul li a:hover {
 }
     
 
-.imagem-cariri {
+.img-cariri {
     text-align: center; /* Centraliza a imagem */
     margin: 0px 0px; /* Adiciona espaço acima e abaixo da imagem */
 }
 
-.imagem-cariri img {
+.img-cariri img {
     margin-top: 50px;
     width: 290px; /* A imagem ocupa toda a largura da tela */
     height: 120px; /* Mantém a proporção da imagem */
@@ -141,41 +145,27 @@ p{
     margin-right: 40px;
 }
 
-.paragrafo_img1{
+.paragrafo_img1, .paragrafo_img2{
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
     padding: 10px;
-    height: 180px;
+    height: 220px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
-    width: 1250px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
-.paragrafo_img2{
+.paragrafo_img3 {
     background-color: #F9E7CE;
     font-size: 40px;
     font-weight: bold;
-    padding: 10px;
-    height: 230px;
+    padding: 17px;
+    height: 270px; /* Ajuste a altura conforme necessário */
     border-radius: 20px;
-    width: 1250px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
     text-align: center;
-    margin-top: 80px;
-    margin-left: 260px;
-}
-.paragrafo_img3{
-    background-color: #F9E7CE;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
-    height: 230px;
-    border-radius: 20px;
-    width: 1250px;
-    text-align: center;
-    margin-top: 90px;
-    margin-left: 50px;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
 }
 h2{
     font-size: 80px;
@@ -183,30 +173,129 @@ h2{
     color: #ffffff;
 }
 
-.Eventos {
+.eventos {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    flex-wrap: wrap; /* Permite que as caixas quebrem linha */
-    gap: 80px; /* Espaçamento entre as caixas */
-    margin: 50px auto; /* Centraliza e dá espaço acima/abaixo */
-    max-width: 1000px; /* Limita a largura do contêiner */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; /* Ajusta o espaço entre as caixas na vertical e horizontal */
+    margin: 50px auto;
+    padding: 0px;
+    max-width: 1000px;
 }
 
-.E01, .E02, .E03, .E04 {
-    height: 220px;
-    width: 450px;
-    background-color: #F9E7CE;
-    border-radius: 20px;
-    margin-top: 50px; 
+.card {
+    display: flex;
+    flex-direction: column;
 }
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 190px;
+    width: 390px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cards p{
+    font-size: 25px;
+}
+
+.cards img {
+    width: 150px;
+    height: 159px;
+    margin-right: 10px;
+}
+
+.cidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.city {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding: 12px;
+    border-radius: 13%;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    display: flex; /* Adicionado para centralizar os itens dentro da cidade */
+    flex-direction: column; /* Organiza a imagem e o título em coluna */
+    align-items: center; /* Centraliza os itens */
+}
+
+.city:hover {
+    transform: scale(1.05);
+}
+
+.city-title {
+    text-align: center;
+    color: white;
+    font-size: 2.8rem;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+@media (max-width: 768px) {
+    .city-title {
+        font-size: 1.8rem; /* Tamanho da fonte reduzido em telas médias */
+    }
+}
+
+@media (max-width: 480px) {
+    .city-title {
+        font-size: 1.5rem; /* Tamanho da fonte ainda menor em telas pequenas */
+    }
+
+    .cities {
+        gap: 10px; /* Reduz o espaço entre os itens em telas pequenas */
+    }
+
+    .city {
+        max-width: 100%; /* A imagem ocupa toda a largura em telas pequenas */
+    }
+}
+
+
+footer img {
+    height: 140px;
+    margin-left: 10px;
+    
+}
+
+footer{
+    background-color: #FFBD59;
+    display: flex;
+    align-items: center;
+    padding: 1px; 
+    border-bottom: 1px solid #FFBD59;
+    position: relative;
+    justify-content: space-between;
+}
+
+nav.footer-nav {
+    padding-right: 90px;
+}
+
 
 /* Responsividade para diferentes tamanhos de tela */
 @media (max-width: 1024px) {
-    .Eventos {
+    .eventos {
         justify-content: center;
     }
 
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 90%; /* As caixas ocupam 90% da largura em telas menores */
     }
 }
@@ -217,13 +306,14 @@ h2{
         align-items: center;
     }
 
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 100%; /* Ocupa 100% da largura */
     }
 }
 
 @media (max-width: 480px) {
-    .E01, .E02, .E03, .E04 {
+    .cards {
         width: 100%;
     }
 }
+

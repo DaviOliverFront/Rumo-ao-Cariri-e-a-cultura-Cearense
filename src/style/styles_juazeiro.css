@@ -1,0 +1,208 @@
+/* Resto do CSS */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.home-juazeiro {
+    font-family: "Amatic SC", sans-serif;
+    background-image: url('../../public/images/juazeiro/body_juazeiro.png');
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
+    background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
+    background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+
+
+header {
+    background-color: #FFBD59;
+    display: flex;
+    align-items: center;
+    padding: 1px; 
+    border-bottom: 1px solid #FFBD59;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 8px; 
+}
+
+.logo img {
+    height: 140px;
+    margin-left: 25px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding-right: 08px
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.admin {
+    margin-left: 20px;
+}
+
+.admin img {
+    height: 195px;
+    /* border-radius: 50%; */
+}
+.btn {
+    margin-right: 19px;
+    padding: 6px 11px;
+    background-color: transparent;
+    border: 3px solid var(--light-color);
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 26px;
+    color: var(--dark-color);
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--light-color);;
+    color: var(--dark-color)
+}
+
+:root {
+    --primary-color: #ffbd59;
+    --dark-color: #000000;
+    --light-color: #ffffff;
+}
+    
+
+.img-juazeiro {
+    text-align: center; /* Centraliza a imagem */
+    margin: 0px 200px; /* Adiciona espaço acima e abaixo da imagem */
+}
+
+.img-juazeiro img {
+    margin-top: 40px;
+    width: 500px; /* A imagem ocupa toda a largura da tela */
+    height: 100px; /* Mantém a proporção da imagem */
+}
+
+.texto-juazeiro {
+    text-align: center;
+    padding: 0px 0;
+    font-weight: bold;
+    color: #000;
+    max-width: 1000px; /* Reduz o comprimento do texto */
+    margin: 30px auto; /* Centraliza o texto e o aproxima da imagem */
+    line-height: 1.4;
+}
+
+p1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 35px;
+}
+
+.section01{
+    display: flex;
+}
+
+.section02{
+    display: flex;
+}
+
+.section03 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: auto; /* Ajuste a altura conforme necessário */
+    padding: 10px; /* Adicione espaçamento ao redor */
+}
+.section03 img {
+    max-height: 800px; /* Ajuste o valor conforme necessário */
+}
+
+.imagem_esquerda{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.imagem_direita{
+    margin-right: 40px;
+}
+
+.paragrafo_img1, .paragrafo_img2 {
+    background-color: #F9E7CE;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    height: 220px; /* Ajuste a altura conforme necessário */
+    border-radius: 20px;
+    width: 100%; /* Ajuste a largura para uma porcentagem */
+    text-align: center;
+    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
+}
+
+.paragrafo_img3 {
+    background-color: #F9E7CE;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 170px;
+    height: 270px; /* Ajuste a altura necessário */
+    border-radius: 20px;
+    width: 100%; /* Ajuste a largura*/
+    text-align: center;
+    margin: 2rem; /* Ajuste a margem superior e esquerda*/
+}
+
+@media (max-width: 768px) {
+    .section03 {
+      background-size: contain; /* Mantém as proporções e ajusta ao tamanho do container */
+      background-position: top; /* Posiciona a imagem no topo */
+    }
+  }
+
+
+
+@media (max-width: 768px) {
+    .paragrafo_img1, .paragrafo_img2, .paragrafo_img3 {
+        width: 90%; /* Aumente a largura para telas menores */
+        margin: 1rem; /* Ajuste a margem para telas menores */
+    }
+}
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+
