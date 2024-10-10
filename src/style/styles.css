@@ -202,7 +202,11 @@ h2{
     margin-top: 10px;
 }
 
-.cards p{
+.card h3{
+    font-size: 30px;
+}
+
+.card p{
     font-size: 25px;
 }
 
