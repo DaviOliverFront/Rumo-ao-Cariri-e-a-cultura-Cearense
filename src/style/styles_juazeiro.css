@@ -1,4 +1,4 @@
-/* Resto do CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
 * {
     margin: 0;
@@ -9,12 +9,12 @@
 body.home-juazeiro {
     font-family: "Amatic SC", sans-serif;
     background-image: url('../../public/images/juazeiro/body_juazeiro.png');
-    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
-    background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
-    background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    min-height: 150vh; /* Garante que o body tenha pelo menos a altura da tela */
-    overflow-x: hidden; /* Impede rolagem horizontal */
+    background-size: cover; 
+    background-position: top center; 
+    background-attachment: scroll; 
+    background-repeat: no-repeat; 
+    min-height: 150vh; 
+    overflow-x: hidden; 
 }
 
 
@@ -75,7 +75,7 @@ nav ul li a:hover {
 
 .admin img {
     height: 195px;
-    /* border-radius: 50%; */
+    
 }
 .btn {
     margin-right: 19px;
@@ -104,14 +104,14 @@ nav ul li a:hover {
     
 
 .img-juazeiro {
-    text-align: center; /* Centraliza a imagem */
-    margin: 0px 200px; /* Adiciona espaço acima e abaixo da imagem */
+    text-align: center; 
+    margin: 0px 200px; 
 }
 
 .img-juazeiro img {
     margin-top: 40px;
-    width: 500px; /* A imagem ocupa toda a largura da tela */
-    height: 100px; /* Mantém a proporção da imagem */
+    width: 500px; 
+    height: 100px; 
 }
 
 .texto-juazeiro {
@@ -119,8 +119,8 @@ nav ul li a:hover {
     padding: 0px 0;
     font-weight: bold;
     color: #000;
-    max-width: 1300px; /* Reduz o comprimento do texto */
-    margin: 30px auto; /* Centraliza o texto e o aproxima da imagem */
+    max-width: 1300px; 
+    margin: 30px auto; 
     line-height: 1.4;
 }
 
@@ -142,15 +142,15 @@ p{
 
 .section03 {
     display: flex;
-    flex-direction: column; /* Coloca os itens em coluna (imagem em cima, texto embaixo) */
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
-    text-align: center; /* Centraliza o texto */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
     padding: 20px;
-    gap: 20px; /* Espaçamento entre a imagem e o parágrafo */
+    gap: 20px; 
 }
 .section03 img {
-    max-height: 900px; /* Ajuste o valor conforme necessário */
+    max-height: 900px; 
 }
 
 .imagem_esquerda{
@@ -162,8 +162,8 @@ p{
     margin-right: 40px;
 }
 .imagem_centro {
-    max-width: 100%; /* Garante que a imagem seja responsiva */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .paragrafo_img1, .paragrafo_img2 {
@@ -171,29 +171,29 @@ p{
     font-size: 40px;
     font-weight: bold;
     padding: 10px;
-    height: 220px; /* Ajuste a altura conforme necessário */
+    height: 220px; 
     border-radius: 20px;
-    width: 100%; /* Ajuste a largura para uma porcentagem */
+    width: 100%; 
     text-align: center;
-    margin: 2rem; /* Ajuste a margem superior e esquerda para uma unidade relativa */
+    margin: 2rem; 
 }
 
 .paragrafo_img3 {
     background-color: #F9E7CE;
-    font-size: 3rem; /* Tamanho de fonte mais adequado */
+    font-size: 3rem; 
     font-weight: bold;
-    padding: 10px; /* Padding ajustado */
+    padding: 10px; 
     border-radius: 20px;
-    width: 100%; /* O texto ocupa toda a largura do container */
-    max-width: 2000px; /* Define um limite máximo para a largura */
-    text-align: center; /* Centraliza o texto */
-    margin: 0; /* Remove margens extras */
+    width: 100%; 
+    max-width: 2000px; 
+    text-align: center; 
+    margin: 0; 
 }
 
 @media (max-width: 768px) {
     .section03 {
-      background-size: contain; /* Mantém as proporções e ajusta ao tamanho do container */
-      background-position: top; /* Posiciona a imagem no topo */
+      background-size: contain; 
+      background-position: top; 
     }
   }
 
@@ -201,8 +201,8 @@ p{
 
 @media (max-width: 768px) {
     .paragrafo_img1, .paragrafo_img2, .paragrafo_img3 {
-        width: 90%; /* Aumente a largura para telas menores */
-        margin: 1rem; /* Ajuste a margem para telas menores */
+        width: 90%; 
+        margin: 1rem; 
     }
 }
 
@@ -211,4 +211,95 @@ h2{
     text-align: center;
     color: #ffffff;
 }
+
+.gastronomia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; 
+    margin: 50px auto;
+    padding: 0px;
+    max-width: 1000px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 210px;
+    width: 500px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card h3{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 27px;
+}
+
+.cards img {
+    width: 170px;
+    height: 190px;
+    margin-right: 10px;
+}
+
+footer img {
+    height: 140px;
+    margin-left: 10px;
+    
+}
+
+footer{
+    background-color: #FFBD59;
+    display: flex;
+    align-items: center;
+    padding: 1px; 
+    border-bottom: 1px solid #FFBD59;
+    position: relative;
+    justify-content: space-between;
+}
+
+nav.footer-nav {
+    padding-right: 90px;
+}
+
+
+@media (max-width: 1024px) {
+    .gastronomia {
+        justify-content: center;
+    }
+
+    .cards {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .gastronomia {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .cards {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+
 
