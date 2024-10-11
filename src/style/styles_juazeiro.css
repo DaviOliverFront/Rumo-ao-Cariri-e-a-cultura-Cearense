@@ -190,6 +190,42 @@ p{
     margin: 0; 
 }
 
+.personagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.person {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding: 12px;
+    border-radius: 13%;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    display: flex; /* Adicionado para centralizar os itens dentro da cidade */
+    flex-direction: column; /* Organiza a imagem e o título em coluna */
+    align-items: center; /* Centraliza os itens */
+}
+
+.person:hover {
+    transform: scale(1.05);
+}
+
+.perso-title {
+    text-align: center;
+    color: white;
+    font-size: 2.8rem;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
 @media (max-width: 768px) {
     .section03 {
       background-size: contain; 
