@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
-body.home-juazeiro {
+body.home-Crato {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('../../public/images/juazeiro/body_juazeiro.png');
+    background-image: url('../../public/images/crato/background.crato.png');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
@@ -101,7 +101,7 @@ nav ul li a:hover {
     --light-color: #ffffff;
 }
     
-.img-crato {
+.img-Crato {
     text-align: center; /* Centraliza a imagem */
     margin: 0px 200px; /* Adiciona espaço acima e abaixo da imagem */
 }
@@ -112,7 +112,7 @@ nav ul li a:hover {
     height: 100px; /* Mantém a proporção da imagem */
 }
 
-.texto-juazeiro {
+.texto-Crato {
     text-align: center;
     padding: 0px 0;
     font-weight: bold;
