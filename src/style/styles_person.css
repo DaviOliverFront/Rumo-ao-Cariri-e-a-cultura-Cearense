@@ -49,3 +49,8 @@ ul li {
     padding: 5px;
     font-size: 21px;
 }
+.imagens img{
+    height: 350px;
+    width: 640px;
+    padding: 15px;
+}
