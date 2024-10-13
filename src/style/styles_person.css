@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +7,31 @@
 
 body{
     background-color: #D56A47;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 ,h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 65px;
+    color: #F1C40F;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+.img_principal {
+    padding: 15px;
+}
+
+.paragrafo01, .paragrafo02, .paragrafo03, .paragrafo04, .paragrafo05, .paragrafo06{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 23px; 
+    color: white; 
+    width: 70%; 
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
 }
