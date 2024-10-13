@@ -8,7 +8,7 @@
 
 body.home-Crato {
     font-family: "Amatic SC", sans-serif;
-    background-image: url('../../public/images/crato/background_barbalha.png');
+    background-image: url('../../public/images/crato/background.crato.png');
     background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área visível */
     background-position: top center; /* Garante que a imagem comece no topo e centralize horizontalmente */
     background-attachment: scroll; /* Faz com que a imagem se mova com a rolagem da página */
