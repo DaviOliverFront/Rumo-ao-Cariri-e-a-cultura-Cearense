@@ -228,7 +228,7 @@ h2{
 .city {
     width: 100%;
     max-width: 250px;
-    height: auto;
+    height: 350px;
     padding: 12px;
     border-radius: 13%;
     transition: transform 0.3s ease-in-out;
