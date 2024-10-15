@@ -224,7 +224,7 @@ p{
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none; /* Remove o sublinhado dos links */
 }
 
 .img_turist {
@@ -232,36 +232,7 @@ a {
     width: 450px;
 }
 
-.carousel {
-    width: 400px;
-    overflow: hidden;
-  }
-  
-  .images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .images img {
-    width: 100%;
-  }
-  
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .prev {
-    left: 10px;
-  }
-  
-  .next {
-    right: 10px;
-  }
+
 
 @media (max-width: 768px) {
     .section03 {
