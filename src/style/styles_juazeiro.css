@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -76,6 +77,33 @@ nav ul li a:hover {
 .admin img {
     height: 195px;
     
+}
+.carousel{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.images{
+    border-radius: 7px;
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.carousel>a{
+    cursor: pointer;
+}
+.carousel a>button{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    width: 62px;
+    height: 100%;
+}
+.images>img{
+    object-fit: cover;
+    height: 350px;
+    width: 450px;
 }
 .btn {
     margin-right: 19px;
