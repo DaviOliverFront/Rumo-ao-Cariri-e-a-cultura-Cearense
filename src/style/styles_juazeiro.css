@@ -104,6 +104,8 @@ nav ul li a:hover {
     object-fit: cover;
     height: 350px;
     width: 450px;
+    padding: 5px;
+    border-radius: 5%;
 }
 .btn {
     margin-right: 19px;
