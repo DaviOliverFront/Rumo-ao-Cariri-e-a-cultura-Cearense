@@ -133,9 +133,14 @@ nav ul li a:hover {
 }
     
 
-.img-juazeiro {
+.img-juazeiro, .img-crato{
     text-align: center; 
     margin: 0px 200px; 
+}
+
+.img-crato img {
+    height: 112px;
+    width: 253px;
 }
 
 .img-juazeiro img {
@@ -144,7 +149,7 @@ nav ul li a:hover {
     height: 100px; 
 }
 
-.texto-juazeiro {
+.texto-juazeiro, .texto-crato {
     text-align: center;
     padding: 0px 0;
     font-weight: bold;
@@ -162,7 +167,7 @@ p{
     font-size: 40px;
 }
 
-.section01{
+.section01, .section0{
     display: flex;
 }
 
@@ -170,7 +175,7 @@ p{
     display: flex;
 }
 
-.section03 {
+.section04 {
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -179,7 +184,7 @@ p{
     padding: 20px;
     gap: 20px; 
 }
-.section03 img {
+.section04 img {
     max-height: 900px; 
 }
 
