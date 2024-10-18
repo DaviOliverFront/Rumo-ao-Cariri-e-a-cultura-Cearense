@@ -17,7 +17,7 @@ body.home-crato {
     overflow-x: hidden; 
 }
 
-header {
+header, footer {
     background-color: #FFBD59;
     display: flex;
     align-items: center;
@@ -25,6 +25,11 @@ header {
     border-bottom: 1px solid #FFBD59;
     position: relative;
     justify-content: space-between;
+}
+
+footer img {
+    height: 140px;
+    margin-left: 10px; 
 }
 
 .logo {
@@ -181,4 +186,114 @@ a {
     max-width: 100%; 
     border-radius: 3%;
     height: auto; 
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+}
+
+.personagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.person {
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+    padding: 12px;
+    border-radius: 13%;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    display: flex; /* Adicionado para centralizar os itens dentro da cidade */
+    flex-direction: column; /* Organiza a imagem e o título em coluna */
+    align-items: center; /* Centraliza os itens */
+}
+
+.person:hover {
+    transform: scale(1.05);
+}
+
+.perso-title {
+    text-align: center;
+    color: white;
+    font-size: 3.8rem;
+}
+
+.carousel{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.images{
+    border-radius: 7px;
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.carousel>a{
+    cursor: pointer;
+}
+.carousel a>button{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    width: 62px;
+    height: 100%;
+}
+.images>img{
+    object-fit: cover;
+    height: 350px;
+    width: 450px;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.gastronomia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 50px ; 
+    margin: 50px auto;
+    padding: 0px;
+    max-width: 1000px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    height: 210px;
+    width: 500px;
+    background-color: #F9E7CE;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card h3{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 27px;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
 }
