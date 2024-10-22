@@ -163,21 +163,29 @@ a {
     max-width: 2000px; 
 }
 
+.paragrafo_img1 {
+    height: 280px;
+}
 .paragrafo_img2 {
-    height: 270px;
+    height: 330px;
 }
 
-.paragrafo_img1, .paragrafo_img3 {
-    margin-top: 70px;
+.paragrafo_img3 {
+    margin-top: 90px;
     height: 210px;
 }
+.paragrafo_img1 {
+    margin-top: 25px;
+}
 
-.imagem_esquerda{
-    margin-top: 20px;
+.imagem_esquerda1, .imagem_esquerda2{
     margin-left: 40px;
     margin-right: 20px;
 }
 
+.imagem_esquerda2, .imagem_direita{
+    margin-top: 40px;
+}
 .imagem_direita {
     margin-left: 20px;
 }
