@@ -159,7 +159,7 @@ a {
     height: 100px; 
 }
 
-.texto-juazeiro {
+.sub-titulo {
     text-align: center;
     padding: 0px 0;
     font-weight: bold;
@@ -169,24 +169,23 @@ a {
     line-height: 1.4;
 }
 
-p1{
-    font-size: 50px;
+#p1{
+    font-size: 60px;
 }
 
-p{
+#p2{
     font-size: 40px;
 }
 
-.section01{
+.section01, .section02, .section03, .section04 {
     display: flex;
 }
 
-.section02{
-    display: flex;
+.section02 {
+    justify-content: center;
 }
 
-.section03 {
-    display: flex;
+.section04 {
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
@@ -194,46 +193,45 @@ p{
     padding: 20px;
     gap: 20px; 
 }
-.section03 img {
+.section04 img {
     max-height: 900px; 
+}
+
+.paragrafo_img1, .paragrafo_img2, .paragrafo_img3, .paragrafo-centro {
+    background-color: #F9E7CE;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 50px;
+    padding: 10px; 
+    border-radius: 20px;
+    width: 72%; 
+    text-align: center;
+    max-width: 2000px; 
+}
+
+.paragrafo_img2 {
+    height: 270px;
+}
+
+.paragrafo_img1, .paragrafo_img3 {
+    margin-top: 70px;
+    height: 210px;
 }
 
 .imagem_esquerda{
     margin-top: 20px;
     margin-left: 40px;
+    margin-right: 20px;
 }
 
-.imagem_direita{
-    margin-right: 40px;
+.imagem_direita {
+    margin-left: 20px;
 }
-.imagem_centro {
+
+.imagem-centro {
     max-width: 100%; 
     border-radius: 3%;
     height: auto; 
-}
-
-.paragrafo_img1, .paragrafo_img2 {
-    background-color: #F9E7CE;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 10px;
-    height: 265px; 
-    border-radius: 20px;
-    width: 100%; 
-    text-align: center;
-    margin: 2rem; 
-}
-
-.paragrafo_img3 {
-    background-color: #F9E7CE;
-    font-size: 3rem; 
-    font-weight: bold;
-    padding: 10px; 
-    border-radius: 20px;
-    width: 100%; 
-    max-width: 2000px; 
-    text-align: center; 
-    margin: 0; 
 }
 
 .personagens {
