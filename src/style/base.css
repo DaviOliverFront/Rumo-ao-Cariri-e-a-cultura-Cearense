@@ -1,0 +1,57 @@
+/* common */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: "Amatic SC", sans-serif;
+}
+
+
+/* container */
+.container {
+    width: 100%;
+    padding: 180px;
+}
+
+/* section */
+.about {
+    text-align: center;
+    padding: 0px 0;
+    font-weight: bold;
+    color: #000;
+    width: 100%; 
+    margin: 30px auto; 
+    line-height: 1.4;
+}
+
+.section {
+    display: flex;
+    align-items: stretch;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+.section p {
+    display: flex;
+    align-items: center;
+    background-color: rgba(249, 231, 206, 0.7);
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 22px; 
+    border-radius: 20px;
+    text-align: center;
+}
+.section--center {
+    flex-direction: column;
+    align-items: center;
+}
+.section--center img {
+    width: 800px;
+    border-radius: 8px;
+}
