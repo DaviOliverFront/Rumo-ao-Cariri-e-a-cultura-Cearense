@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Macondo&display=swap');
 * {
-    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
@@ -18,8 +17,7 @@ body.home-juazeiro {
     overflow-x: hidden; 
 }
 
-
-header {
+header, footer {
     background-color: #FFBD59;
     display: flex;
     align-items: center;
@@ -27,6 +25,11 @@ header {
     border-bottom: 1px solid #FFBD59;
     position: relative;
     justify-content: space-between;
+}
+
+footer img {
+    height: 140px;
+    margin-left: 10px; 
 }
 
 .logo {
@@ -70,54 +73,10 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.admin {
-    margin-left: 20px;
-}
-
-.admin img {
-    height: 195px;
-}
-
 a {
     text-decoration: none; 
 }
-.carousel{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding-inline: 10px;
-}
 
-.images{
-    border-radius: 7px;
-    width: 1349px;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-}
-.carousel>a{
-    cursor: pointer;
-}
-.container_slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    transition: width 0.5s ease, opacity 0.5s ease;
-}
-.carousel>button{
-    cursor: pointer;
-    border: none;
-    border-radius: 7px;
-    width: 62px;
-}
-.container_slider>img{
-    object-fit: cover;
-    height: 350px;
-    width: 450px;
-    padding: 5px;
-    border-radius: 5%;
-}
 .btn {
     margin-right: 19px;
     padding: 6px 11px;
@@ -143,20 +102,15 @@ a {
     --light-color: #ffffff;
 }
 
-.img-juazeiro{
+.title{
     text-align: center; 
     margin: 0px 200px; 
 }
 
-.img-crato img {
-    height: 112px;
-    width: 253px;
-}
-
-.img-juazeiro img {
+.title img {
     margin-top: 40px;
-    width: 500px; 
-    height: 100px; 
+    height: 152px;
+    width: 293px; 
 }
 
 .sub-titulo {
@@ -234,6 +188,12 @@ a {
     height: auto; 
 }
 
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+}
+
 .personagens {
     display: flex;
     justify-content: center;
@@ -246,6 +206,7 @@ a {
 .person {
     width: 100%;
     max-width: 250px;
+    max-height: 250px;
     height: auto;
     padding: 12px;
     border-radius: 13%;
@@ -263,36 +224,37 @@ a {
 .perso-title {
     text-align: center;
     color: white;
-    font-size: 2.8rem;
+    font-size: 3.8rem;
 }
 
-.img_turist {
+.carousel{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.images{
+    border-radius: 7px;
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.carousel>a{
+    cursor: pointer;
+}
+.carousel a>button{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    width: 62px;
+    height: 100%;
+}
+.images>img{
+    object-fit: cover;
     height: 350px;
     width: 450px;
-}
-
-
-
-@media (max-width: 768px) {
-    .section03 {
-      background-size: contain; 
-      background-position: top; 
-    }
-  }
-
-
-
-@media (max-width: 768px) {
-    .paragrafo_img1, .paragrafo_img2, .paragrafo_img3 {
-        width: 90%; 
-        margin: 1rem; 
-    }
-}
-
-h2{
-    font-size: 80px;
-    text-align: center;
-    color: #ffffff;
+    padding: 5px;
+    border-radius: 5%;
 }
 
 .gastronomia {
@@ -336,25 +298,21 @@ h2{
     margin-right: 10px;
 }
 
-footer img {
-    height: 140px;
-    margin-left: 10px; 
-}
+@media (max-width: 768px) {
+    .section03 {
+      background-size: contain; 
+      background-position: top; 
+    }
+  }
 
-footer {
-    background-color: #FFBD59;
-    display: flex;
-    align-items: center;
-    padding: 1px; 
-    border-bottom: 1px solid #FFBD59;
-    position: relative;
-    justify-content: space-between;
-}
 
-nav.footer-nav {
-    padding-right: 90px;
-}
 
+@media (max-width: 768px) {
+    .paragrafo_img1, .paragrafo_img2, .paragrafo_img3 {
+        width: 90%; 
+        margin: 1rem; 
+    }
+}
 
 @media (max-width: 1024px) {
     .gastronomia {
@@ -380,70 +338,5 @@ nav.footer-nav {
 @media (max-width: 480px) {
     .cards {
         width: 100%;
-    }
-}
-
-/* 
-   RESPONSIVIDADE CAROSSEL
-*/
-
-@media (max-width: 1500px){
-    .images{
-        width: 1058px;
-    }
-    .container_slider>img{
-        object-fit: cover;
-        height: 269px;
-        width: fit-content;
-        padding: 5px;
-        border-radius: 5%;
-    }
-}
-@media (max-width: 1220px){
-    .images{
-        width: 870px;
-    }
-    .container_slider>img{
-        object-fit: cover;
-        height: 230px;
-        width: fit-content;
-        padding: 5px;
-        border-radius: 5%;
-    }
-}
-@media (max-width: 1034px){
-    .images{
-        width: 750px;
-    }
-    .container_slider>img{
-        object-fit: cover;
-        height: 200px;
-        width: fit-content;
-        padding: 5px;
-        border-radius: 5%;
-    }
-}
-@media (max-width: 921px) {
-    .images{
-        width: 578px;
-    }
-    .container_slider>img{
-        object-fit: cover;
-        height: 230px;
-        width: fit-content;
-        padding: 5px;
-        border-radius: 5%;
-    }
-}
-@media (max-width: 740px) {
-    .images{
-        width: 470px;
-    }
-    .container_slider>img{
-        object-fit: cover;
-        height: 192px;
-        width: fit-content;
-        padding: 5px;
-        border-radius: 5%;
     }
 }
