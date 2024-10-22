@@ -8,20 +8,20 @@ nextData.addEventListener('click', (e) => next(e))
 const screenWidth = screen.width; 
 const elements = `
     <div class="container_slider" id='' style="z-index: 1;">
-        <img src="../public/images/pontos_turisticos/estatua.png" alt="Imagem 1" id="image_1" title=" Estátua Padre Cicero">
+        <img src="../public/images/pontos_turisticos/estatua.png" alt="Imagem 1" id="image_1" title="Estátua Padre Cicero">
         <img src="../public/images/pontos_turisticos/Igreja_bom_jesus.png" alt="Imagem 2" id="image_2" title="Igreja Bom Jesus do Horto">
     </div>
     <div class="container_slider" id='' style="opacity: 0;">
         <img src="../public/images/pontos_turisticos/museu-vivo-do-padre-cicero.png" alt="Imagem 3" id="image_3" title="Casarão Padre Cicero">
-        <img src="../public/images/pontos_turisticos/memorial-padre-cicero.png" alt="Imagem 4" id="image_4" title="Memorial Padre Cicbero">
+        <img src="../public/images/pontos_turisticos/santo-sepulcro-horto.png" alt="Imagem 4" id="image_4" title="Trilha do Santo Sepulcro">
     </div>
     <div class="container_slider" id='' style="opacity: 0;" >
-       <img src="../public/images/pontos_turisticos/parque_ecologico.png" alt="Imagem 5" id="image_5" title="Paque Ecológico Timbaúbas">
-        <img src="../public/images/pontos_turisticos/Praça_Padre_Cicero.png" alt="Imagem 6" id="image_6" title="Praça Padre Cicero">
+       <img src="../public/images/pontos_turisticos/teleferico.png" alt="Imagem 5" id="image_5" title="Teleférico do Horto">
+        <img src="../public/images/pontos_turisticos/parque_ecologico.png" alt="Imagem 6" id="image_6" title="Parque Ecológico das Timbaúbas">
     </div>
     <div class="container_slider" id='' style="opacity: 0;">
-       <img src="../public/images/pontos_turisticos/santo-sepulcro-horto.png" alt="Imagem 7" id="image_7" title="Trilha do Santo Sepulcro">
-        <img src="../public/images/pontos_turisticos/shopping.png" alt="Imagem 8" id="image_8" title=" Cariri Garden Shopping">
+       <img src="../public/images/pontos_turisticos/Praça_Padre_Cicero.png" id="image_7" title="Praça Padre Cícero">
+        <img src="../public/images/pontos_turisticos/memorial-padre-cicero.png" alt="Imagem 8" id="image_8" title="Memorial Padre Cicero">
     </div>
     `
 
@@ -114,5 +114,3 @@ function prev(e) {
         }
     }
 }
-    
-
