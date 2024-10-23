@@ -7,7 +7,7 @@ nextData.addEventListener('click', (e) => next(e))
 
 const screenWidth = screen.width; 
 const elements = `
-    <div class="container_slider" id='' style="z-index: 1;">
+    <div class="container_slider" id='' style="opacity: 1;">
         <img src="../public/images/pontos_turisticos/estatua.png" alt="Imagem 1" id="image_1" title="Estátua Padre Cicero">
         <img src="../public/images/pontos_turisticos/Igreja_bom_jesus.png" alt="Imagem 2" id="image_2" title="Igreja Bom Jesus do Horto">
     </div>

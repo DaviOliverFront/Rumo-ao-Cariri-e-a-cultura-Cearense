@@ -240,9 +240,22 @@ h2 {
     gap: 10px;
     justify-content: center;
 }
+.container_slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.5s ease, opacity 0.5s ease;
+}
+.container_slider>img{
+    object-fit: cover;
+    height: 350px;
+    width: 450px;
+    padding: 5px;
+    border-radius: 5%;
+}
 .images{
     border-radius: 7px;
-    width: 1320px;
+    width: 1349px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -346,5 +359,70 @@ h2 {
 @media (max-width: 480px) {
     .cards {
         width: 100%;
+    }
+}
+
+/* 
+   RESPONSIVIDADE CAROSSEL
+*/
+
+@media (max-width: 1500px){
+    .images{
+        width: 1058px;
+    }
+    .container_slider>img{
+        object-fit: cover;
+        height: 269px;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 5%;
+    }
+}
+@media (max-width: 1220px){
+    .images{
+        width: 870px;
+    }
+    .container_slider>img{
+        object-fit: cover;
+        height: 230px;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 5%;
+    }
+}
+@media (max-width: 1034px){
+    .images{
+        width: 750px;
+    }
+    .container_slider>img{
+        object-fit: cover;
+        height: 200px;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 5%;
+    }
+}
+@media (max-width: 921px) {
+    .images{
+        width: 578px;
+    }
+    .container_slider>img{
+        object-fit: cover;
+        height: 230px;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 5%;
+    }
+}
+@media (max-width: 740px) {
+    .images{
+        width: 470px;
+    }
+    .container_slider>img{
+        object-fit: cover;
+        height: 192px;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 5%;
     }
 }
